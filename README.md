@@ -1,16 +1,22 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Jawacurieux AI
 
-First, run the development server:
+Jawacurieux AI est une application de conversation gérée par une intelligence artificielle. Elle permet aux utilisateurs d'interagir avec des personnages célèbres, chacun étant un expert dans son domaine. Par exemple, vous pouvez discuter avec Aristote dans la catégorie Philosophie ou Albert Einstein pour la catégorie Science.
+
+L'objectif de cette application est d'aider les élèves à apprendre de manière amusante et interactive. En discutant avec ces personnages, les utilisateurs peuvent approfondir leurs connaissances dans divers domaines tout en s'amusant.
+
+## Démarrage
+
+Pour commencer à utiliser l'application, vous devez d'abord lancer le serveur de développement :
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
