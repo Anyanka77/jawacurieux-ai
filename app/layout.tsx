@@ -5,6 +5,7 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
+import { Toaster } from "@/components/ui/toaster";
 
 // Configuration de la police Inter avec le sous-ensemble latin
 const inter = Inter({ subsets: ["latin"] });
@@ -29,8 +30,8 @@ export default function RootLayout({
       <html lang="fr" suppressHydrationWarning>
         <body className={cn("bg-secondary", inter.className)}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            {children}{" "}
-            {/*} Les "enfants" du composant sont rendus à l'intérieur du fournisseur de thème*/}
+            {children}
+            <Toaster />
           </ThemeProvider>
         </body>
       </html>
