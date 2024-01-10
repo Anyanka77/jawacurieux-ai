@@ -50,7 +50,7 @@ export const Navbar = () => {
         <ModeToggle />
 
         {/* Bouton pour gérer le compte utilisateur */}
-        <UserButton />
+        <UserButton afterSignOutUrl="/sign-in" />
       </div>
     </div>
   );
