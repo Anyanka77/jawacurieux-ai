@@ -65,7 +65,7 @@ export async function DELETE(
     const { userId } = auth();
 
     if (!userId) {
-      return new NextResponse("Vous devez être connecté", { status: 401 });
+      return new NextResponse("Tu dois être connecté.", { status: 401 });
     }
 
     const companion = await prismadb.companion.delete({

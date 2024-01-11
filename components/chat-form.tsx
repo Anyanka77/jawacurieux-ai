@@ -34,7 +34,7 @@ export const ChatForm = ({
         disabled={isLoading}
         value={input}
         onChange={handleInputChange}
-        placeholder="Type a message"
+        placeholder="Ecrit un message..."
         className="rounded-lg bg-primary/10"
       />
       <Button disabled={isLoading} variant="ghost">

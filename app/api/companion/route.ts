@@ -10,7 +10,7 @@ export async function POST(req: Request) {
     const { src, name, description, instructions, seed, categoryId } = body;
 
     if (!user || !user.id || !user.firstName) {
-      return new NextResponse("Vous devez être connecté", { status: 401 });
+      return new NextResponse("Tu dois être connecté", { status: 401 });
     }
 
     if (

@@ -120,8 +120,8 @@ export const CompanionForm = ({
             <div>
               <h3 className="text-lg font-medium">Information Générale</h3>
               <p className="text-sm text-muted-foreground">
-                Ajouter des informations générales sur le compagnon que vous
-                souhaitez partager.
+                Indique les informations générales sur ton compagnon que tu
+                souhaites partager.
               </p>
             </div>
             <Separator className="bg-primary/10" />
@@ -156,7 +156,7 @@ export const CompanionForm = ({
                     />
                   </FormControl>
                   <FormDescription>
-                    Ajouter le nom de votre compagnon.
+                    Ajoute le nom de ton compagnon.
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
@@ -176,7 +176,7 @@ export const CompanionForm = ({
                     />
                   </FormControl>
                   <FormDescription>
-                    Courte description de votre compagnon.
+                    Description courte de ton compagnon.
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
@@ -211,7 +211,7 @@ export const CompanionForm = ({
                     </SelectContent>
                   </Select>
                   <FormDescription>
-                    Sélectionner la catégorie de votre compagnon.
+                    Choisis la catégorie de ton compagnon.
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
@@ -222,7 +222,7 @@ export const CompanionForm = ({
             <div>
               <h3 className="text-lg font-medium">Configuration</h3>
               <p className="text-sm text-muted-foreground">
-                Détailler les instructions de votre compagnon.
+                Donne un aperçu détaillé des instructions de ton compagnon.
               </p>
             </div>
             <Separator className="bg-primary/10" />
@@ -243,8 +243,8 @@ export const CompanionForm = ({
                   />
                 </FormControl>
                 <FormDescription>
-                  Décrivez en détail l’histoire de votre compagnon et les
-                  détails pertinents.
+                  Décrit en détail l’histoire de ton compagnon et les détails
+                  pertinents.
                 </FormDescription>
                 <FormMessage />
               </FormItem>
@@ -266,8 +266,7 @@ export const CompanionForm = ({
                   />
                 </FormControl>
                 <FormDescription>
-                  Décrivez en détail l’histoire de votre compagnon et les
-                  détails pertinents.
+                  Donne un exemple de conversation avec ton compagnon.
                 </FormDescription>
                 <FormMessage />
               </FormItem>
@@ -275,9 +274,7 @@ export const CompanionForm = ({
           />
           <div className="w-full flex justify-center">
             <Button size="lg" disabled={isloading}>
-              {initialData
-                ? "Mettre à jour ton compagnon"
-                : "Créer ton compagnon"}
+              {initialData ? "Mets à jour ton compagnon" : "Crée ton compagnon"}
               <Wand2 className="w-4 h-4 ml-2" />
             </Button>
           </div>
